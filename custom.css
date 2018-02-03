@@ -4,3 +4,7 @@
     transform: translateY(-50%);
     font-size: xx-large;
 }
+
+#custom-header {
+    text-align: center;
+}
