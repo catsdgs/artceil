@@ -11,4 +11,9 @@
 .copyright {
     bottom: 20px;
     position: absolute;
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
 }
