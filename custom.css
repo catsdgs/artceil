@@ -7,3 +7,8 @@
     text-align: center;
     color: #FFFFFF;
 }
+
+.copyright {
+    bottom: 20px;
+    position: absolute;
+}
