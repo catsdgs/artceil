@@ -18,3 +18,8 @@
     margin-top: -3em;
     text-align: center;
 }
+
+.carousel-control .icon-prev, .carousel-control .icon-next, 
+.carousel-control .glyphicon-chevron-left, .carousel-control 
+.glyphicon-chevron-right, .glyphicon-circle-arrow-left {     display: inline-block;     position: absolute;     top: 50%;     z-index: 5;
+}
