@@ -6,7 +6,6 @@
 .custom-header {
     text-align: center;
     color: #FFFFFF;
-    font-size: 80px;
 }
 
 .copyright {
@@ -19,3 +18,7 @@
     margin-top: -3em;
     text-align: center;
 }
+
+.big-text {
+    font-size: 50px;
+}    
