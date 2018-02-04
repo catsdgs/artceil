@@ -19,7 +19,6 @@
     text-align: center;
 }
 
-.carousel-control.left .glyphicon {     left: 0;     margin-left: 0;
-}
-.carousel-control.right .glyphicon {     right: 0;     margin-right: 0;
+.col-lg-10 mx-auto {
+    color: #FFFFFF;
 }
