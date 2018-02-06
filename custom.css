@@ -8,6 +8,11 @@
     color: #FFFFFF;
 }
 
+.custom-header p{
+    text-align: center;
+    color: #FFFFFF;
+}
+
 .copyright {
     bottom: 20px;
     position: absolute;
