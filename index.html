@@ -236,14 +236,12 @@ More to come…(weekly updates)</h4>
 
 </footer>
 <script>
- $(document).ready(function() {
-
-    var url = window.location.href;
-    var modalToOpen = url.substring(url.indexOf("#conformation"));
-
-    if(window.location.href.indexOf(exampleModalCenter) != -1) {
-        $(exampleModalCenter).modal("show");
-    }
+$(document).ready(function() {
+    $('.conformation').click(function() {
+        $('#conformation .modal-body').load($(this).data('href'), function(e) {
+            $('#conformation').modal('show')
+        });
+    });
 });
 </script>
     <!-- ReCaptcha -->
