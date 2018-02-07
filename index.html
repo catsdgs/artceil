@@ -235,15 +235,14 @@ More to come…(weekly updates)</h4>
         </div>
 
 </footer>
-    <script type="text/javascript">
-jQuery(document).ready(function($) {
-var target = document.location.hash.replace("#", "");
-if (target.length) {
-    if(target=="conformation"){
-      $('#exampleModalCenter').modal('show');
+ $(document).ready(function() {
+
+    var url = window.location.href;
+    var modalToOpen = url.substring(url.indexOf("#conformation"));
+
+    if(window.location.href.indexOf(exampleModalCenter) != -1) {
+        $(exampleModalCenter).modal("show");
     }
-}else{    
-}
 });
 </script>
     <!-- ReCaptcha -->
