@@ -239,15 +239,9 @@ More to come…(weekly updates)</h4>
 $(document).ready(function () {
     var target = document.location.hash.replace("#", "");
     if (target.length) {
-        if(target=="option1"){
-          showModal("title1","content1");
+        if(target=="conformation"){
+          showModal("","content1");
         }
-        else if(target=="option2"){
-            showModal("title2","content2");
-        }
-    }else{
-        showModal("no title","no content");
-    }
 
     function showModal(title,content){
         $('#examplemodalcenter .modal-title').html(title);
