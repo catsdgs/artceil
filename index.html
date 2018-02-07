@@ -252,17 +252,7 @@ More to come…(weekly updates)</h4>
       </div>
     </div>
   </div>
-<script type="text/javascript">
-jQuery(document).ready(function($) {
-var target = document.location.hash.replace("#", "");
-if (target.length) {
-    if(target=="conformation"){
-     showModal("conformation","content1");
-    }
-}else{    
-}
-});
-</script>
+
     <!-- ReCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -277,6 +267,19 @@ if (target.length) {
 
     <!-- Custom scripts for this template -->
     <script src="creative.js"></script>
+	
+    <script type="text/javascript">
+jQuery(document).ready(function($) {
+var target = document.location.hash.replace("#", "");
+if (target.length) {
+    if(target=="conformation"){
+      $('#conformation').modal('show');
+    }
+}
+}else{    
+}
+});
+    </script>
 
   
     <!-- All code made by catsdgs.cf, do not copy.  GRANDPA-->
