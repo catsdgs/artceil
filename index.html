@@ -230,6 +230,26 @@ More to come…(weekly updates)</h4>
         </div>
 
 </footer>
+$(document).ready(function () {
+    var target = document.location.hash.replace("#", "");
+    if (target.length) {
+        if(target=="option1"){
+          showModal("title1","content1");
+        }
+        else if(target=="option2"){
+            showModal("title2","content2");
+        }
+    }else{
+        showModal("no title","no content");
+    }
+
+    function showModal(title,content){
+        $('#examplemodalcenter .modal-title').html(title);
+        $('#examplemodalcenter .modal-body').html(content);
+        $('#examplemodalcenter').modal('show');
+    }
+
+});
 
     <!-- ReCaptcha -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
