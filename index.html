@@ -160,6 +160,41 @@
     </div>
   </div>
 </div>
+		                 <h4 class="mb-5">Or authorized users can use our beta form</h4>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#secondModalCenter">
+  Open Contact Form
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="secondModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongLabel"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+	      <form accept-charset="UTF-8" action="https://usebasin.com/f/9ca052986d96" enctype="multipart/form-data" method="POST">
+  <label for="email-address">Email Address</label>
+  <input type="email" id="email" name="email" required>
+
+  <textarea rows="4" cols="50" name="comment" required>
+  </textarea>
+		        <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
+
+  <button type="submit">Submit</button>
+		      
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close Form</button>
+      </div>
+    </div>
+  </div>
+</div>
           </div>
         </div>
        </div>
@@ -195,6 +230,8 @@ More to come…(weekly updates)</h4>
 
 </footer>
 
+    <!-- ReCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- Bootstrap core JavaScript -->
     <script src="jquery_003.js"></script>
