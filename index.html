@@ -271,13 +271,14 @@ More to come…(weekly updates)</h4>
 	
     
 <script type="text/javascript">
-jQuery(document).ready(function($) {
-var target = document.location.hash.replace("#", "");
-if (target.length) {
-    if(target=="conformation"){
-      $('#conformation').modal('show');
-}else{    
-}
+$(document).ready(function() {
+
+    var url = window.location.href;
+    var modalToOpen = url.substring(url.indexOf("#"));
+
+    if(window.location.href.indexOf(#conformation) != -1) {
+        $(#conformation).modal("show");
+    }
 });
 </script>
     <!-- All code made by catsdgs.cf, do not copy. -->
