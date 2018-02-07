@@ -267,16 +267,11 @@ More to come…(weekly updates)</h4>
     <!-- Custom scripts for this template -->
     <script src="creative.js"></script>
 	
-    <script type="text/javascript">
-$(document).ready(function() {
-
-    var url = window.location.href;
-    var modalToOpen = url.substring(url.indexOf("#"));
-
-    if(window.location.href.indexOf(conformation) != -1) {
-        $(#conformation).modal("show");
-    }
-});
+    
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#conformation').modal('show');
+    });
     </script>
   
     <script type="text/javascript">
