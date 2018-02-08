@@ -50,3 +50,10 @@ input[type=email], select, textarea {
     text-align: center;
     font-family: Helvetica Neue;
 }
+
+.g-recaptcha {
+    height:46px;
+    width:150px;
+    margin: 0px;
+    padding: 0px;
+}
