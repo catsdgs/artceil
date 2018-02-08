@@ -51,10 +51,10 @@ input[type=email], select, textarea {
 }
 
 .g-recaptcha {
-    height:30px;
-    width:133px;
-    margin: 0px;
-    padding: 0px;
+    height:20px;
+    width:122px;
+    margin: 1px;
+    padding: 2px;
 }
 
 .custom-form label p {
