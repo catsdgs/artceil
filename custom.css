@@ -55,3 +55,8 @@ input[type=email], select, textarea[name=comment] {
     font-family: "Helvetica Neue";
     font-weight: 300;
 }
+
+input:required:invalid, input:focus:invalid { background-image: url(/images/invalid.png); background-position: right top; background-repeat: no-repeat; 
+} 
+input:required:valid { background-image: url(/images/valid.png); background-position: right top; background-repeat: no-repeat; 
+}
