@@ -62,4 +62,5 @@ input[type=email], select, textarea, input[type=text] select{
   }
   input:valid, textarea:valid, select:valid {
     border: 3px solid green;
+    -moz-box-shadow: none;
   }
