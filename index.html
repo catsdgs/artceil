@@ -156,16 +156,26 @@
 	      <div class="container">
 	      <div class="custom-form">		  
 	      <form accept-charset="UTF-8" action="https://usebasin.com/f/9ca052986d96" enctype="multipart/form-data" method="POST" id="basinform">
-		  <div class="form-group">
 		      <div class="form-group">
 			      <label for="name">Name <small class="text-muted">(required)</small></label>
 		      <input type="text" class="form-control" placeholder="Name..." id="name" name="name" required>
 		      </div>
+		      <div class="form-group">
 			  <label for="email">Email address <small class="text-muted">(required)</small></label>
     <input type="email" class="form-control" id="email" name="email" placeholder="Valid email address..." required>
   </div>
+		          <div class="form-group">
+      <label for="why-are-you-contacting-us">Why are you contacting us? <small class="text-muted">(required)</small></label>
+      <select id="why-are-you-contacting-us" class="form-control" name="why-are-you-contacting-us" id="why-are-you-contacting-us">
+        <option selected>Choose...</option>
+        <option>Information</option>
+        <option>Contact</option>
+        <option>Feedback</option>
+        <option>Other</option>
+      </select>
+    </div>
   <div class="form-group">
-	  <label for="message">Comment <small class="text-muted">(required)</small></label>
+	  <label for="message">Message <small class="text-muted">(required)</small></label>
     <textarea class="form-control" minlength="3" name="message" id="message" rows="4" placeholder="Type your message here..." required></textarea>	     
 		      </div>		        
 <br>	      
