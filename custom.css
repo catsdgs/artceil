@@ -33,7 +33,7 @@ input[type=email], select, textarea, input[type=text] select{
     width: 100%;
     padding: 12px; 
     border: 1px solid #f05f40;
-    border-radius: 3px;
+    border-radius: 1px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
@@ -58,9 +58,9 @@ input[type=email], select, textarea, input[type=text] select{
 
   input:invalid, input:focus:invalid, textarea:invalid, select:invalid{
     -moz-box-shadow: none;
-    border: 3px solid red;
+    border: 2px solid red;
   }
   input:valid, textarea:valid, select:valid {
-    border: 3px solid green;
+    border: 2px solid green;
     -moz-box-shadow: none;
   }
