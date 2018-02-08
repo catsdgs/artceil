@@ -53,6 +53,7 @@ input[type=email], select, textarea {
 .g-recaptcha {
     height: 15px;
     width: 15px;
-    margin: 10px;
-    padding: 20px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    padding: 12px;
 }
