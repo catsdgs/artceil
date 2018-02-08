@@ -51,8 +51,12 @@ input[type=email], select, textarea {
 }
 
 .g-recaptcha {
-    height:46px;
-    width:150px;
+    height:40px;
+    width:144px;
     margin: 0px;
     padding: 0px;
+}
+
+.custom-form p {
+    font-family: Helvetica Neue;
 }
