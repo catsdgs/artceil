@@ -50,7 +50,7 @@ input[type=email], select, textarea[name=comment] {
     font-family: "Helvetica Neue";
 }
 
-.form-caption p{
+.label {
     text-align: center;
     font-family: "Helvetica Neue";
     font-weight: 300;
