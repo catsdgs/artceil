@@ -55,11 +55,3 @@ input[type=email], select, textarea {
     font-family: "Helvetica Neue";
     font-weight: 300;
 }
-
-.g-recaptcha {
-    height: 15px;
-    width: 15px;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    padding: 12px;
-}
