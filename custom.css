@@ -50,9 +50,10 @@ input[type=email], select, textarea {
     font-family: "Helvetica Neue";
 }
 
-.form-caption {
+.form-caption p{
     text-align: center;
-    font-family: "Helvetica Neue";   
+    font-family: "Helvetica Neue";
+    font-weight: 300;
 
 .g-recaptcha {
     height: 15px;
