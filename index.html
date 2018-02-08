@@ -162,12 +162,11 @@
 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
 		       <div class="form-group">
-		      <input type="text" class="form-control" placeholder="Name..." id="formname" name="formname">
+		      <input type="text" class="form-control" placeholder="Name..." id="name" name="name">
 		      </div>
   <div class="form-group">
-     <input id="comment" name="comment" type="hidden">
-    <label for="message">Message</label>
-    <textarea class="form-control" minlength="3" name="message" id="message" rows="4" placeholder="Type your message here..." required></textarea>
+    <label for="comment">Message</label>
+    <textarea class="form-control" minlength="3" name="comment" id="comment" rows="4" placeholder="Type your message here..." required></textarea>
 		      </div>		        
 <br>	      
   <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy"></div>
@@ -273,11 +272,6 @@ $(document).ready(function() {
         $(modalToOpen).modal("show");
     }
 });	    
-</script>
-	    <script type=text/javascript>
-	      $('#basinform').submit(function() {
-  $('#comment').val($("#message").val() + $("#formname").val());
-});
 </script>	 
 	      
     <!-- All code written by catsdgs.cf, do not copy. -->
