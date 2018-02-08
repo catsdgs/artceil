@@ -57,6 +57,6 @@ input[type=email], select, textarea {
     padding: 0px;
 }
 
-.custom-form p {
+.custom-form label p {
     font-family: Helvetica Neue;
 }
