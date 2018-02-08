@@ -54,6 +54,7 @@ input[type=email], select, textarea {
     text-align: center;
     font-family: "Helvetica Neue";
     font-weight: 300;
+}
 
 .g-recaptcha {
     height: 15px;
