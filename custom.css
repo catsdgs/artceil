@@ -1,70 +1,61 @@
 .carousel-caption h5 {
-    text-align: center;
-    font-size: 40px;
+   text-align: center;
+   font-size: 40px;
 }
-
-.custom-header h5{
-    text-align: center;
-    color: #FFFFFF;
-    font-size: 52px;
+.custom-header h5 {
+   text-align: center;
+   color: #FFFFFF;
+   font-size: 52px;
 }
-
-.custom-header p{
-    text-align: center;
-    color: #FFFFFF;
+.custom-header p {
+   text-align: center;
+   color: #FFFFFF;
 }
-
 .copyright {
-    bottom: 20px;
-    position: absolute;
-    clear: both;
-    position: relative;
-    z-index: 10;
-    height: 3em;
-    margin-top: -3em;
-    text-align: center;
+   bottom: 20px;
+   position: absolute;
+   clear: both;
+   position: relative;
+   z-index: 10;
+   height: 3em;
+   margin-top: -3em;
+   text-align: center;
 }
-
 .big-text {
-    font-size: 50px;
-}  
-
+   font-size: 50px;
+}
 input, select, textarea {
-    width: 100%;
-    padding: 12px; 
-    border: 1px solid #f05f40;
-    border-radius: 1px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;/
+   width: 100%;
+   padding: 12px;
+   border: 1px solid #f05f40;
+   border-radius: 1px;
+   box-sizing: border-box;
+   margin-top: 6px;
+   margin-bottom: 16px;
+   resize: vertical;
+   /
 }
-
-
 .custom-form {
-    border-radius: 5px;
-    background-color: #FFFFFF;
-    color: #000000;
-    padding: 20px;
-    text-align: center;
-    font-family: "Helvetica Neue";
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   color: #000000;
+   padding: 20px;
+   text-align: center;
+   font-family: "Helvetica Neue";
 }
-
 .label {
-    text-align: center;
-    font-family: "Helvetica Neue";
-    font-weight: 300;
+   text-align: center;
+   font-family: "Helvetica Neue";
+   font-weight: 300;
 }
-
-  input:invalid, input:focus:invalid, textarea:invalid, select:invalid{
-    -moz-box-shadow: none;
-    border: 2px solid red;
-  }
-  input:valid, textarea:valid, select:valid {
-    border: 2px solid green;
-    -moz-box-shadow: none;
-  }
-
+input:invalid, input:focus:invalid, textarea:invalid, select:invalid {
+   -moz-box-shadow: none;
+   border: 2px solid red;
+}
+input:valid, textarea:valid, select:valid {
+   border: 2px solid green;
+   -moz-box-shadow: none;
+}
 #collapseExample {
-    background-color: #000000;
-    color: white;
+   background-color: #000000;
+   color: white;
