@@ -8,28 +8,28 @@ body {
 hr {
    max-width: 50px;
    border-width: 3px;
-   border-color: #f05f40
+   border-color: #EC008C
 }
 hr.light {
    border-color: #fff
 }
 a {
-   color: #f05f40;
+   color: #EC008C;
    -webkit-transition: all .2s;
    -moz-transition: all .2s;
    transition: all .2s
 }
 a:hover {
-   color: #f05f40
+   color: #EC008C
 }
 h1, h2, h3, h4, h5, h6 {
    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 .bg-primary {
-   background-color: #f05f40!important
+   background-color: #EC008C!important
 }
 .bg-dark {
-   background-color: #212529!important
+   background-color: #FFF200!important
 }
 .text-faded {
    color: rgba(255, 255, 255, .7)
@@ -42,12 +42,12 @@ section {
 }
 ::-moz-selection {
    color: #fff;
-   background: #212529;
+   background: #FFF200;
    text-shadow: none
 }
 ::selection {
    color: #fff;
-   background: #212529;
+   background: #FFF200;
    text-shadow: none
 }
 img::selection {
@@ -69,23 +69,23 @@ img::-moz-selection {
 #mainNav .navbar-brand {
    font-weight: 700;
    text-transform: uppercase;
-   color: #f05f40;
+   color: #EC008C;
    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-   color: #f05f40
+   color: #EC008C
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus {
    font-size: .9rem;
    font-weight: 700;
    text-transform: uppercase;
-   color: #212529
+   color: #FFF200
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
-   color: #f05f40
+   color: #EC008C
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active {
-   color: #f05f40!important;
+   color: #EC008C!important;
    background-color: transparent
 }
 #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover, #mainNav .navbar-nav>li.nav-item>a.nav-link:focus.active:hover {
@@ -116,16 +116,16 @@ img::-moz-selection {
       background-color: #fff
    }
    #mainNav.navbar-shrink .navbar-brand {
-      color: #f05f40
+      color: #EC008C
    }
    #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-      color: #f05f40
+      color: #EC008C
    }
    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus {
-      color: #212529
+      color: #FFF200
    }
    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover, #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
-      color: #f05f40
+      color: #EC008C
    }
 }
 header.masthead {
@@ -226,7 +226,7 @@ header.masthead p {
    }
 }
 .text-primary {
-   color: #f05f40!important
+   color: #EC008C!important
 }
 .btn {
    font-weight: 700;
@@ -239,8 +239,8 @@ header.masthead p {
    padding: 1rem 2rem
 }
 .btn-primary {
-   background-color: #f05f40;
-   border-color: #f05f40
+   background-color: #EC008C;
+   border-color: #EC008C
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
    color: #fff;
