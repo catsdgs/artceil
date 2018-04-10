@@ -50,7 +50,6 @@ input, select, textarea {
 }
 input:invalid, input:focus:invalid, textarea:invalid, select:invalid {
    -moz-box-shadow: none;
-   border: 2px solid red;
 }
 input:valid, textarea:valid, select:valid {
    border: 2px solid green;
