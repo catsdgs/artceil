@@ -303,15 +303,12 @@
             <br>
 
 
-            <p><small>Powered by Bootstrap, Github, NameCheap, and Cloudflare. For more information on who created this website, go to <a href="https://catsdgs.cf">this website</a>. If something is wrong with the website, or you'd like to send us some feedback, click <button class="btn btn-link" data-target="#feedbackModal" data-toggle="modal" type="button">here</button>.</small></p>
+            <p><small>Powered by Bootstrap, Github, NameCheap, and Cloudflare. For more information on who created this website, go to <a href="https://catsdgs.cf">this website</a>. If something is wrong with the website, or you'd like to send us some feedback, click the button below.</small></p>
+            <br>
+            <button class="btn btn-secondary btn-sm" data-target="#feedbackModal" data-toggle="modal" type="button">Submit Feedback/Bugs</button>
          </div>
       </section>
    </footer>
-   
-   <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-  Launch demo modal
-</button>
 
 <!-- Feedback Modal -->
 <div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalTitle" aria-hidden="true">
@@ -324,10 +321,10 @@
         </button>
       </div>
       <div class="modal-body">
-        <iframe src='https://github.com/catsdgs/artciel.com/issues/new' width='100%;' height='500px;' frameborder='0' scrolling='no'></iframe>
+      You can submit feedback by submitting a github issue by clicking continue below. Please select a label on the issue for what your message is about (feedback, bugs, etc.)
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> <a href="https://github.com/catsdgs/artciel.com/issues/new" class="btn btn-primary" role="button" aria-pressed="true">Continue</a>
       </div>
     </div>
   </div>
@@ -379,7 +376,9 @@
       </script>&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <script type="text/javascript">
        
-               $('#form-conformation').modal({backdrop: 'static', keyboard: false, show: false})  
+              $('#form-conformation').modal({backdrop: 'static', keyboard: false, show: false})
+         
+              $('#feedbackModal').modal({backdrop: 'static', keyboard: false, show: false})
       </script>&nbsp; &nbsp; 
       <script type="text/javascript">
       $(document).ready(function() {
