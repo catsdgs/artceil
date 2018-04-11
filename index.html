@@ -303,10 +303,35 @@
             <br>
 
 
-            <p><small>Powered by Bootstrap, Github, NameCheap, and Cloudflare. For more information on who created this website, go to <a href="https://catsdgs.cf">this website</a>. If something is wrong with the website, or you'd like to send us some feedback, click <button class="btn btn-link" data-target="#bugform" data-toggle="modal" type="button">here</button>.</small></p>
+            <p><small>Powered by Bootstrap, Github, NameCheap, and Cloudflare. For more information on who created this website, go to <a href="https://catsdgs.cf">this website</a>. If something is wrong with the website, or you'd like to send us some feedback, click <button class="btn btn-link" data-target="#feedbackModal" data-toggle="modal" type="button">here</button>.</small></p>
          </div>
       </section>
    </footer>
+   
+   <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+  Launch demo modal
+</button>
+
+<!-- Feedback Modal -->
+<div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="feedbackModalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="feedbackModalCenterTitle">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe src='https://github.com/catsdgs/artciel.com/issues/new' width='100%;' height='500px;' frameborder='0' scrolling='no'></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
    <!-- Conformation Modal -->
 
 
