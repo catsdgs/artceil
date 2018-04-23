@@ -318,9 +318,9 @@
             <br>
 
 
-            <p><small>Powered by Bootstrap, Github, NameCheap, and Cloudflare. For more information on who created this website, go to <a href="https://catsdgs.cf">this website</a>. If something is wrong with the website, or you'd like to send us some feedback, click the button below.</small></p>
+            <p><small>Powered by Bootstrap, Github, NameCheap, and Cloudflare. For more information on who created this website, go to <a href="https://catsdgs.cf">this website</a>. If something is wrong with the website, or you'd like to send us some feedback, click the button below (you must be on a computer.)</small></p>
             <br>
-            <button class="btn btn-secondary btn-sm" data-target="#feedbackModal" data-toggle="modal" type="button">Submit Feedback/Bugs</button>
+            <button class="btn btn-secondary btn-sm" data-target="#feedbackModal" data-toggle="modal" type="button" id="bugbutt">Submit Feedback/Bugs</button>
          </div>
       </section>
    </footer>
@@ -336,7 +336,7 @@
         </button>
       </div>
       <div class="modal-body">
-      You can submit feedback by submitting a github issue by clicking continue below (you must have a github account, new form coming soon.) Please select a label on the issue for what your message is about (feedback, bugs, etc.)
+      You can submit feedback by submitting a github issue by clicking continue below (you must have a github account.) Please select a label on the issue for what your message is about (feedback, bugs, etc.)
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> <a href="https://github.com/catsdgs/artciel.com/issues/new" class="btn btn-primary" role="button" aria-pressed="true">Continue</a>
@@ -408,6 +408,7 @@
       $(document).ready(function() {
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
       $('#calframe').replaceWith("Please go on a computer to view the calendar.");
+      $("#bugbutt").hide();
       }
       });
       </script>
