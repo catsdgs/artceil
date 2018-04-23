@@ -303,6 +303,7 @@
 
 
                <h4 class="mb-5">Here's a calendar of our events:</h4>
+               <h4 class="mb-5" id="calerror">Please go onto a computer to view the calendar.</h4>
                <iframe id="calframe" src="https://calendar.zoho.com/group/embed/c9c64b7a63800d810542dffcfc0c819b1edcd41e9266cd37a4c75ea52752f1a01b924b347fd6c88105027202e4154e54?title=Website Calendar&type=6&l=en&tz=America/Los_Angeles&sh=[0,0,0]&c=0" height="900" width="900" frameborder="0" scrolling="no"></iframe>
              </section>
 
@@ -406,12 +407,18 @@
       </script>
       <script type="text/javascript">
       $(document).ready(function() {
+      $("calerror").hide()
+      });
+      </script>
+      <script type="text/javascript">
+      $(document).ready(function() {
       if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-      $('#calframe').replaceWith("<h4 class="mb-5" id="calerror">Please go onto a computer to view the calendar.</h4>");   
+      $('#calframe').replaceWith("#calerror");
       }
       });
       </script>
       <!-- Almost all code written by catsdgs.cf, do not copy. -->
+
    </div>
 </body>
 </html>
