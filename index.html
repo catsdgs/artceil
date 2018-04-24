@@ -411,6 +411,14 @@
       }
       });
       </script>
+      <script type="text/javascript">
+      $(document).ready(function() {
+        $('#calframe').contents().find('a').click(function(event) {
+          alert("demo only");
+          event.preventDefault();
+        });
+      });
+      </script>
       <!-- Almost all code written by catsdgs.cf, do not copy. -->
 
    </div>
