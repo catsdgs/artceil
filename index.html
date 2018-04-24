@@ -412,7 +412,9 @@
       });
       </script>
       <script type="text/javascript">
-      $("#calframe").contents().find(".zcl_pwrby").remove();
+      $(document).ready(function() {
+      $("#calframe").contents().find("div[class='zcl_pwrby']").remove();
+      });
       </script>
       <!-- Almost all code written by catsdgs.cf, do not copy. -->
 
