@@ -9,6 +9,7 @@
 .custom-header p {
    text-align: center;
    color: #FFFFFF;
+   font-size: 15px;
 }
 .copyright {
    bottom: 20px;
