@@ -55,3 +55,6 @@ input:valid, textarea:valid, select:valid {
    background-color: #000000;
    color: white;
 }
+.collapse {
+   align: "center"
+}
