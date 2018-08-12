@@ -56,6 +56,6 @@ input:valid, textarea:valid, select:valid {
    background-color: #000000;
    color: white;
 }
-.collapse show{
+.card card-body{
    text-align: center;
 }
