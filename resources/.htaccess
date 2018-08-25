@@ -1,4 +1,4 @@
 AuthType Basic  
 AuthName "restricted area"  
-AuthUserFile resources/.htpasswd  
+AuthUserFile /home/catsdgs/Documents/Web Development Projects/artciel.com/resources/.htaccess
 require valid-user
