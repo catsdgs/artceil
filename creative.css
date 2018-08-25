@@ -253,6 +253,7 @@ header.masthead p {
     font-size: 50px;
     color: #FFFFFF;
     text-align: center;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
 .list-group-item {
     font-weight: 700;
