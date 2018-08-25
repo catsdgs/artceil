@@ -240,7 +240,7 @@ header.masthead p {
 }
 .btn-primary {
    background-color: #EC008C;
-   border-color: #EC008C
+   border-color: #EC008C;
 }
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
    color: #fff;
@@ -253,4 +253,14 @@ header.masthead p {
     font-size: 50px;
     color: #FFFFFF;
     text-align: center;
+}
+.list-group-item {
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+    background-color: #EC008C;
+    border-color: #EC008C;
+    color: #FFFFFF;
 }
