@@ -255,7 +255,7 @@ header.masthead p {
     text-align: center;
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif
 }
-.list-group-item {
+.list-group {
     font-weight: 700;
     text-transform: uppercase;
     border: none;
