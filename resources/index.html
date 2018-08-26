@@ -58,7 +58,40 @@ Artciel Online Resources
       </div>
   </div>
     </section>
-
+    <div class="modal fade" id="password-modal" tabindex="-1" role="dialog" aria-labelledby="password-modalTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="password-modalTitle"></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe frameborder="0" style="height:500px;width:99%;border:none;" src='https://forms.zohopublic.com/artcielcom/form/artcielpasswords/formperma/j5UhqTQ72PRJPzwPv4x7GtAE7mGoDuJFiRt5PtUuVQY'></iframe>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+$(document).ready(function() {
+var url = window.location.href;
+var modalToOpen = url.substring(url.indexOf("#"));
+if(window.location.href.indexOf(modalToOpen) != -1) {
+  $(modalToOpen).modal("show");
+}
+});
+</script>
+<script type="text/javascript">
+    $(window).on('load',function(){
+        $('#password-modal').modal('show');
+    });
+</script>
+<script type="text/javascript">
+        $('#password-modal').modal({backdrop: 'static', keyboard: false, show: false})
+</script>
 <body>
 </body>
 </html>
