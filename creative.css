@@ -314,7 +314,7 @@ input, select, textarea {
 input:invalid, input:focus:invalid, textarea:invalid, select:invalid {
    -moz-box-shadow: none;
    border: 2px solid #FFF200;
-
+}
 input:valid, textarea:valid, select:valid {
    border: 2px solid green;
    -moz-box-shadow: none;
@@ -326,4 +326,7 @@ input:valid, textarea:valid, select:valid {
 .collapse{
    text-align: center;
    display: inline-block;
+}
+.form-control-file {
+    border-radius: .25rem
 }
