@@ -326,3 +326,7 @@ input:invalid, input:focus:invalid, textarea:invalid, select:invalid {
 .form-control-file {
     border-radius: .25rem
 }
+#portfolio{
+    width: 600px;
+
+}
