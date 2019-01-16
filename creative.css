@@ -328,7 +328,7 @@ input:invalid, input:focus:invalid, textarea:invalid, select:invalid {
 }
 @media (min-width: 768px) {
   #modal-xl {
-    width: 90%;
+    width: 150%;
    max-width:1200px;
   }
 }
