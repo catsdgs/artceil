@@ -332,3 +332,7 @@ input:invalid, input:focus:invalid, textarea:invalid, select:invalid {
    max-width:1200px;
   }
 }
+.powr-media-gallery {
+   pointer-events: none;
+   cursor: default;
+}
